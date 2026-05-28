@@ -5,7 +5,7 @@ variable "region" {
 
 variable "cluster_name" {
   description = "EKS Cluster Name"
-  default     = "my-eks-cluster"
+  default     = "poc13-eks-cluster"
 }
 
 variable "vpc_cidr" {
