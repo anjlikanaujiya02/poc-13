@@ -7,12 +7,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/anjlikanaujiya02/poc-13.git'
-            }
-        }
-
         stage('Terraform Init') {
             steps {
                 sh 'terraform init'
